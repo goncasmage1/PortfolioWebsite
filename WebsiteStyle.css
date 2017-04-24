@@ -1,0 +1,83 @@
+:root {
+	--background_1: #F5F3BB;
+	--background_2: #FCBF49;
+	--border_color: #77625C;
+	
+	--font_color: #49392C;
+}
+
+html, body {
+	color: var(--font_color);
+	background-color: var(--background_1);
+	border-color: var(--border_color);
+}
+
+.Sidebar {
+	position: fixed;
+	margin: 1%;
+
+	width: 15%;
+	height: 96%;
+
+	border: solid;
+	box-shadow: 5px, 5px;
+
+	background-color: var(--background_2);
+
+	display: inline-table;
+}
+
+#name {
+	padding-top: 5%;
+	padding-bottom: 5%;
+
+	border-bottom: solid;
+
+	text-align: center;
+	font-size: 180%;
+}
+
+.SectionBody {
+	position: absolute;
+	width: 83%;
+	height: 100%;
+
+	left: 17%;
+
+	background-color: var(--background_2);
+}
+
+.SectionTab {
+	width: 100%;
+	height: 45px;
+
+	background-color: red;
+
+	text-align: center;
+}
+
+.SectionTable {
+	margin: auto;
+	margin-top: 8px;
+    border-spacing: 100px 0px;
+	border-collapse: separate;
+
+	font-size: 125%;
+}
+
+.SectionTable tr {
+}
+
+.SectionTable td {
+	height: 45px;
+
+	padding-left: 3%;
+	padding-right: 3%;
+
+	border: solid;
+	border-radius: 8px;
+}
+
+.SectionTable td:hover {
+	cursor: pointer;
+}
