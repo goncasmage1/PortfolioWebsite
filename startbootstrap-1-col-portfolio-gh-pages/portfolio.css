@@ -1,0 +1,49 @@
+:root {
+	--background_1: #336699;
+	--background_2: #2d2d2d;
+	--background_3: #141414;
+	--font_color_1: white;
+	--border_color: #F4A261;
+}
+
+@font-face {
+	font-family: 'Main-Font';
+	src: url('fonts/lato/Lato-Regular.ttf');
+}
+
+html, body {
+	background-color: var(--background_1);
+	color: var(--font_color_1);
+	font-family: 'Main-Font';
+}
+
+.navbar {
+	background-color: var(--background_2);
+}
+
+/*Center buttons*/
+.navbar-nav {
+	float: none;
+	text-align: center;
+}
+
+.navbar-nav li {
+	float: none;
+	display: inline-block;
+}
+
+.btn-primary {
+	background-color: var(--background_3);
+}
+
+.btn-primary:hover {
+	background-color: var(--background_2);
+}
+
+#GitHubLink {
+	color: var(--font_color_1);
+}
+
+#GitHubLink:hover {
+	color: var(--font_color_1);
+}
