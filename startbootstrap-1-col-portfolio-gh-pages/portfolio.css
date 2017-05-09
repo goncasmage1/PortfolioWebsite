@@ -17,6 +17,10 @@ html, body {
 	font-family: 'Main-Font';
 }
 
+.btn {
+	border-radius: 0px;
+}
+
 .navbar {
 	background-color: var(--background_2);
 }
@@ -46,4 +50,8 @@ html, body {
 
 #GitHubLink:hover {
 	color: var(--font_color_1);
+}
+
+#About p {
+	font-size: 115%;
 }
