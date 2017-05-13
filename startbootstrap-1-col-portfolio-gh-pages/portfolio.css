@@ -1,5 +1,6 @@
 :root {
-	--background_1: #336699;
+	--background_1: #1d456d;
+	--background_1_1: #2982db;
 	--background_2: #2d2d2d;
 	--background_3: #141414;
 	--font_color_1: white;
@@ -12,7 +13,10 @@
 }
 
 html, body {
+	background: linear-gradient(to bottom right, var(--background_1), var(--background_1_1));
+	/*
 	background-color: var(--background_1);
+	*/
 	color: var(--font_color_1);
 	font-family: 'Main-Font';
 }
@@ -54,4 +58,8 @@ html, body {
 
 #About p {
 	font-size: 115%;
+}
+
+#SocialMedia .btn{
+	border-radius: 8px;
 }
