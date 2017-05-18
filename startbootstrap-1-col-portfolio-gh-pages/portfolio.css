@@ -64,6 +64,22 @@ html, body {
 	font-size: 115%;
 }
 
+#About a {
+	color: black;
+}
+
+#About a:hover {
+	color: black;
+}
+
 #SocialMedia .btn{
 	border-radius: 8px;
+}
+
+#EmailRow a {
+	color: black;
+}
+
+#EmailRow a:hover {
+	color: white;
 }
