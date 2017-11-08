@@ -2,10 +2,12 @@
 	--background_1: #215182;
 	--background_1_1: #2982db;
 	--background_2: #2d2d2d;
-	--background_2_2: #4c4c4c;
-	--background_3: #141414;
+	--background_2_2: #333333;
+	--background_3: #131313;
 	--font_color_1: white;
 	--border_color: #F4A261;
+	--link_color_1: #5fff47;
+	--link_color_2: #a6fc98;
 }
 
 @font-face {
@@ -64,12 +66,13 @@ html, body {
 	font-size: 115%;
 }
 
-#About a {
-	color: black;
+#About a, #EmailRow a, #ResumeRow a {
+	color: var(--link_color_1);
+	
 }
 
-#About a:hover {
-	color: black;
+#About a:hover, #EmailRow a:hover, #ResumeRow a:hover {
+	color: var(--link_color_2);
 }
 
 #SocialMedia .btn{
@@ -79,12 +82,4 @@ html, body {
 #SocialMedia a {
 	margin-left: 1%;
 	margin-right: 1%;
-}
-
-#EmailRow a {
-	color: black;
-}
-
-#EmailRow a:hover {
-	color: white;
 }
