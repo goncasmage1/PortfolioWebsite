@@ -1,9 +1,10 @@
 :root {
-	--background_1: #215182;
+	--background_1: #218255;
 	--background_1_1: #2982db;
 	--background_2: #2d2d2d;
 	--background_2_2: #333333;
-	--background_3: #131313;
+	--button_color_1: #131313;
+	--button_color_2: var(--background_2);
 	--font_color_1: #FFFFFF;
 	--border_color: #FFFFFF;
 	--link_color_1: #000000;
@@ -51,19 +52,16 @@ html, body {
 }
 
 .btn-primary {
-	background-color: var(--background_3);
+	border: none;
+	background-color: var(--button_color_1);
 }
 
 .btn-primary:hover {
-	background-color: var(--background_2);
+	background-color: var(--button_color_2);
 }
 
-#GitHubLink {
-	color: var(--font_color_1);
-}
-
-#GitHubLink:hover {
-	color: var(--font_color_1);
+.btn-primary:active {
+	background-color: var(--button_color_1);
 }
 
 #About p {
