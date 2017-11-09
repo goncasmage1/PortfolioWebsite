@@ -7,8 +7,8 @@
 	--button_color_2: var(--background_2);
 	--font_color_1: #FFFFFF;
 	--border_color: #FFFFFF;
-	--link_color_1: #000000;
-	--link_color_2: #2e2e2e;
+	--link_color_1: #34df00;
+	--link_color_2: #8dc002;
 }
 
 @font-face {
@@ -70,7 +70,6 @@ html, body {
 
 #About a, #EmailRow a, #ResumeRow a {
 	color: var(--link_color_1);
-	
 }
 
 #About a:hover, #EmailRow a:hover, #ResumeRow a:hover {
