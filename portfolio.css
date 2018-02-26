@@ -68,7 +68,7 @@ html, body {
 	font-size: 115%;
 }
 
-#About a, #EmailRow a, #ResumeRow a {
+#About a, #EmailRow a, #ResumeRow a, #LoE a{
 	color: var(--link_color_1);
 }
 
