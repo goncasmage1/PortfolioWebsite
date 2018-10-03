@@ -1,14 +1,14 @@
 :root {
-	--background_1: #218255;
-	--background_1_1: #2982db;
-	--background_2: #2d2d2d;
-	--background_2_2: #333333;
+	--background_1: #3399ff;
+	--background_1_1: #3399ff;
+	--top_bar_color_1: #0080ff;
+	--top_bar_color_2: #0080ff;
 	--button_color_1: #131313;
-	--button_color_2: var(--background_2);
+	--button_color_2: var(--top_bar_color_1);
 	--font_color_1: #FFFFFF;
 	--border_color: #FFFFFF;
-	--link_color_1: #3af700;
-	--link_color_2: #34df00;
+	--link_color_1: #000000;
+	--link_color_2: #b5c6ff;
 }
 
 @font-face {
@@ -35,9 +35,9 @@ html, body {
 
 .navbar {
 	/*
-	background-color: var(--background_2);
+	background-color: var(--top_bar_color_1);
 	*/
-	background: linear-gradient(to bottom, var(--background_2), var(--background_2_2));
+	background: linear-gradient(to bottom, var(--top_bar_color_1), var(--top_bar_color_2));
 }
 
 /*Center buttons*/
